@@ -50,6 +50,13 @@ void main(){
             line_end();
         }
             break;
+        case 1281:{
+            line_start(1281);
+            int a=12042;
+            printf("结果=%d\n",subtractProductAndSum(a));
+            line_end();
+        }
+            break;
         case 1295:{
             line_start(1295);
             int nums[]={1259,45,2,33,664};
