@@ -17,11 +17,11 @@ void main(){
 
 
     int a;
-    printf("璇疯緭鍏ヨ璋冭瘯鐨凩eetCode棰樼洰鍙凤細");
+    printf("请输入要调试的LeetCode题目号：");
     scanf("%d",&a);
     switch(a) {
         /**
-         * 璋冪敤LeetCode_1涓殑鍑芥暟
+         * 调用LeetCode_1中的函数
          */
         case 1: {
             line_start(1);
@@ -37,7 +37,7 @@ void main(){
         case 3: {
             line_start(3);
             char *s = "abcbefg";
-            printf("缁撴灉=%d\n", lengthOfLongestSubstring(s));
+            printf("结果=%d\n", lengthOfLongestSubstring(s));
             line_end();
         }
             break;
@@ -46,21 +46,31 @@ void main(){
             line_start(771);
             char *J="abB";
             char *S="aaaBBbbAAhhshshs";
-            printf("缁撴灉=%d\n",numJewelsInStones(J,S));
+            printf("结果=%d\n",numJewelsInStones(J,S));
             line_end();
         }
             break;
+
+        case 1108:{
+            line_start(1108);
+            char *J="1.1.1.1";
+            char *IP=defangIPaddr(J);
+            printf("结果=%s\n",IP);
+            line_end();
+        }
+            break;
+
         case 1281:{
             line_start(1281);
             int a=12042;
-            printf("缁撴灉=%d\n",subtractProductAndSum(a));
+            printf("结果=%d\n",subtractProductAndSum(a));
             line_end();
         }
             break;
         case 1295:{
             line_start(1295);
             int nums[]={1259,45,2,33,664};
-            printf("缁撴灉=%d\n",findNumbers(nums,5));
+            printf("结果=%d\n",findNumbers(nums,5));
             line_end();
         }
     }

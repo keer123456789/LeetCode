@@ -14,10 +14,13 @@ extern int* twoSum(int* nums, int numsSize, int target, int* returnSize);
 extern int lengthOfLongestSubstring(char *s);
 
 //LeetCode_771
-int numJewelsInStones(char * J, char * S);
+extern int numJewelsInStones(char * J, char * S);
+
+//LeetCode_1108
+extern char * defangIPaddr(char * address);
 
 //LeetCode_1281
-int subtractProductAndSum(int n);
+extern int subtractProductAndSum(int n);
 
 //LeetCode_1295
 int findNumbers(int* nums, int numsSize);
