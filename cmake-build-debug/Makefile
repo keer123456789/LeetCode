@@ -230,6 +230,33 @@ LeetCode_question_bank/LeetCode_1295.c.s:
 	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1295.c.s
 .PHONY : LeetCode_question_bank/LeetCode_1295.c.s
 
+LeetCode_question_bank/LeetCode_1323.obj: LeetCode_question_bank/LeetCode_1323.c.obj
+
+.PHONY : LeetCode_question_bank/LeetCode_1323.obj
+
+# target to build an object file
+LeetCode_question_bank/LeetCode_1323.c.obj:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1323.c.obj
+.PHONY : LeetCode_question_bank/LeetCode_1323.c.obj
+
+LeetCode_question_bank/LeetCode_1323.i: LeetCode_question_bank/LeetCode_1323.c.i
+
+.PHONY : LeetCode_question_bank/LeetCode_1323.i
+
+# target to preprocess a source file
+LeetCode_question_bank/LeetCode_1323.c.i:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1323.c.i
+.PHONY : LeetCode_question_bank/LeetCode_1323.c.i
+
+LeetCode_question_bank/LeetCode_1323.s: LeetCode_question_bank/LeetCode_1323.c.s
+
+.PHONY : LeetCode_question_bank/LeetCode_1323.s
+
+# target to generate assembly for a file
+LeetCode_question_bank/LeetCode_1323.c.s:
+	$(MAKE) -f CMakeFiles\LeetCode.dir\build.make CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1323.c.s
+.PHONY : LeetCode_question_bank/LeetCode_1323.c.s
+
 LeetCode_question_bank/LeetCode_237.obj: LeetCode_question_bank/LeetCode_237.c.obj
 
 .PHONY : LeetCode_question_bank/LeetCode_237.obj
@@ -359,6 +386,9 @@ help:
 	@echo ... LeetCode_question_bank/LeetCode_1295.obj
 	@echo ... LeetCode_question_bank/LeetCode_1295.i
 	@echo ... LeetCode_question_bank/LeetCode_1295.s
+	@echo ... LeetCode_question_bank/LeetCode_1323.obj
+	@echo ... LeetCode_question_bank/LeetCode_1323.i
+	@echo ... LeetCode_question_bank/LeetCode_1323.s
 	@echo ... LeetCode_question_bank/LeetCode_237.obj
 	@echo ... LeetCode_question_bank/LeetCode_237.i
 	@echo ... LeetCode_question_bank/LeetCode_237.s

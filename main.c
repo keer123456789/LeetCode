@@ -95,6 +95,13 @@ void main() {
             printf("结果=%d\n", findNumbers(nums, 5));
             line_end();
         }
+            break;
+        case 1323:{
+            line_start(1323);
+            printf("输入：696\n");
+            printf("结果=%d\n", maximum69Number(696));
+            line_end();
+        }
     }
 
 

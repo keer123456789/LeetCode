@@ -31,7 +31,12 @@ extern char *defangIPaddr(char *address);
 extern int subtractProductAndSum(int n);
 
 //LeetCode_1295
-int findNumbers(int *nums, int numsSize);
-
+extern int findNumbers(int *nums, int numsSize);
 extern int sumWei(int num);
+
+//LeetCode_1323
+int maximum69Number (int num);
+
+
+
 
