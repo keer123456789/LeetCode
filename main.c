@@ -46,13 +46,13 @@ void main() {
         case 237: {
             line_start(237);
             struct ListNode *p;
-            struct ListNode q,k;
+            struct ListNode q, k;
             InitNodeList(&p);
-            p->next=&q;
-            q.val=3;
-            q.next=&k;
-            k.next=NULL;
-            k.val=7;
+            p->next = &q;
+            q.val = 3;
+            q.next = &k;
+            k.next = NULL;
+            k.val = 7;
 
             TraverseNodeList(p);
             deleteNode(&q);
@@ -61,9 +61,9 @@ void main() {
 
         }
             break;
-        /**
-         * 调用LeetCode_771中的函数
-         */
+            /**
+             * 调用LeetCode_771中的函数
+             */
         case 771: {
             line_start(771);
             char *J = "abB";
@@ -82,6 +82,13 @@ void main() {
         }
             break;
 
+        case 1221: {
+            line_start(1221);
+            char s[] = "RRRLLLRLRLRLRRLL";
+            printf("结果：%d\n", balancedStringSplit(&s));
+            line_end();
+        }
+            break;
         case 1281: {
             line_start(1281);
             int a = 12042;
@@ -96,7 +103,7 @@ void main() {
             line_end();
         }
             break;
-        case 1323:{
+        case 1323: {
             line_start(1323);
             printf("输入：696\n");
             printf("结果=%d\n", maximum69Number(696));

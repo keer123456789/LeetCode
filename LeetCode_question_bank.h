@@ -27,6 +27,9 @@ extern int numJewelsInStones(char *J, char *S);
 //LeetCode_1108
 extern char *defangIPaddr(char *address);
 
+//LeetCode_1221
+extern int balancedStringSplit(char * s);
+
 //LeetCode_1281
 extern int subtractProductAndSum(int n);
 

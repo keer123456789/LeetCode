@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1.c.obj"
   "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1108.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1108.c.obj"
+  "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1221.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1221.c.obj"
   "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1281.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1281.c.obj"
   "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1295.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1295.c.obj"
   "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1323.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1323.c.obj"

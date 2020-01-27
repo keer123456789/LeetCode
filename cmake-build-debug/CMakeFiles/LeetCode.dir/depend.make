@@ -5,6 +5,8 @@ CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1.c.obj: ../LeetCode_que
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1108.c.obj: ../LeetCode_question_bank/LeetCode_1108.c
 
+CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1221.c.obj: ../LeetCode_question_bank/LeetCode_1221.c
+
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1281.c.obj: ../LeetCode_question_bank/LeetCode_1281.c
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1295.c.obj: ../LeetCode_question_bank/LeetCode_1295.c
