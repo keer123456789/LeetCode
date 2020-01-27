@@ -5,21 +5,21 @@
 #include "LeetCode_question_bank.h"
 
 
-
-void line_start(int a){
-    printf("********************LeetCode_%d********************\n",a);
+void line_start(int a) {
+    printf("********************LeetCode_%d********************\n", a);
 }
-void line_end(){
+
+void line_end() {
     printf("**************************************************\n");
 }
 
-void main(){
+void main() {
 
 
     int a;
     printf("请输入要调试的LeetCode题目号：");
-    scanf("%d",&a);
-    switch(a) {
+    scanf("%d", &a);
+    switch (a) {
         /**
          * 调用LeetCode_1中的函数
          */
@@ -33,7 +33,9 @@ void main(){
             line_end();
         }
             break;
-
+            /**
+             * 调用LeetCode_3中的函数
+             */
         case 3: {
             line_start(3);
             char *s = "abcbefg";
@@ -41,36 +43,56 @@ void main(){
             line_end();
         }
             break;
+        case 237: {
+            line_start(237);
+            struct ListNode *p;
+            struct ListNode q,k;
+            InitNodeList(&p);
+            p->next=&q;
+            q.val=3;
+            q.next=&k;
+            k.next=NULL;
+            k.val=7;
 
-        case 771:{
+            TraverseNodeList(p);
+            deleteNode(&q);
+            TraverseNodeList(p);
+            line_end();
+
+        }
+            break;
+        /**
+         * 调用LeetCode_771中的函数
+         */
+        case 771: {
             line_start(771);
-            char *J="abB";
-            char *S="aaaBBbbAAhhshshs";
-            printf("结果=%d\n",numJewelsInStones(J,S));
+            char *J = "abB";
+            char *S = "aaaBBbbAAhhshshs";
+            printf("结果=%d\n", numJewelsInStones(J, S));
             line_end();
         }
             break;
 
-        case 1108:{
+        case 1108: {
             line_start(1108);
-            char *J="1.1.1.1";
-            char *IP=defangIPaddr(J);
-            printf("结果=%s\n",IP);
+            char *J = "1.1.1.1";
+            char *IP = defangIPaddr(J);
+            printf("结果=%s\n", IP);
             line_end();
         }
             break;
 
-        case 1281:{
+        case 1281: {
             line_start(1281);
-            int a=12042;
-            printf("结果=%d\n",subtractProductAndSum(a));
+            int a = 12042;
+            printf("结果=%d\n", subtractProductAndSum(a));
             line_end();
         }
             break;
-        case 1295:{
+        case 1295: {
             line_start(1295);
-            int nums[]={1259,45,2,33,664};
-            printf("结果=%d\n",findNumbers(nums,5));
+            int nums[] = {1259, 45, 2, 33, 664};
+            printf("结果=%d\n", findNumbers(nums, 5));
             line_end();
         }
     }
