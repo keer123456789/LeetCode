@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_237.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1323.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1221.c.obj"
+  "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1021.c.obj"
   "LeetCode.pdb"
   "LeetCode.exe"
   "LeetCode.exe.manifest"

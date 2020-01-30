@@ -72,7 +72,14 @@ void main() {
             line_end();
         }
             break;
-
+        case 1021:{
+            line_start(1021);
+            char *s="(()())(())";
+            printf("结果：%s\n",s);
+            printf("结果：%s\n",removeOuterParentheses(s));
+            line_end();
+        }
+            break;
         case 1108: {
             line_start(1108);
             char *J = "1.1.1.1";

@@ -24,6 +24,9 @@ extern void TraverseNodeList(struct ListNode *L);
 //LeetCode_771
 extern int numJewelsInStones(char *J, char *S);
 
+//LeetCode_1021
+extern char * removeOuterParentheses(char * S);
+
 //LeetCode_1108
 extern char *defangIPaddr(char *address);
 
