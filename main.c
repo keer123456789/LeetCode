@@ -61,6 +61,25 @@ void main() {
 
         }
             break;
+        case 709:{
+            line_start(709);
+            char *str="HelloWorld";
+            printf("结果：%s\n",toLowerCase(str));
+//            char *str="HelloWorld";
+//            char c;
+//            printf("开始");
+//            for(;*str!='\0';){
+//                if(*str>='A'&&*str<='Z'){
+//                    c=*str+32;
+//
+//                    *str=c;
+//                }
+//                str++;
+//            }
+//            printf("结果：%s\n",str);
+            line_end();
+        }
+            break;
             /**
              * 调用LeetCode_771中的函数
              */

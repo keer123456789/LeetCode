@@ -21,6 +21,8 @@ extern void deleteNode(struct ListNode *node);
 extern void InitNodeList(struct sNode **HL);
 extern void TraverseNodeList(struct ListNode *L);
 
+//LeetCode_709
+extern char * toLowerCase(char * str);
 //LeetCode_771
 extern int numJewelsInStones(char *J, char *S);
 
