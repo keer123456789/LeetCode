@@ -66,15 +66,12 @@ void main() {
             char *str="HelloWorld";
             printf("结果：%s\n",toLowerCase(str));
 //            char *str="HelloWorld";
-//            char c;
-//            printf("开始");
-//            for(;*str!='\0';){
-//                if(*str>='A'&&*str<='Z'){
-//                    c=*str+32;
-//
-//                    *str=c;
+//            int i=0;
+//            printf("开始\n");
+//            for(;str[i]!='\0';i++){
+//                if(str[i]>='A'&&str[i]<='Z'){
+//                    str[i]=(str[i])+32;
 //                }
-//                str++;
 //            }
 //            printf("结果：%s\n",str);
             line_end();
@@ -126,6 +123,19 @@ void main() {
             line_start(1295);
             int nums[] = {1259, 45, 2, 33, 664};
             printf("结果=%d\n", findNumbers(nums, 5));
+            line_end();
+        }
+            break;
+        case 1304:{
+            line_start(1304);
+            int *a;
+            a=sumZero(5,a);
+            int i=0;
+            for(;i<5;i++){
+                printf("%d ",*a);
+                a++;
+            }
+            printf("\n");
             line_end();
         }
             break;

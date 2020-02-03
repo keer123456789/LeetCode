@@ -13,24 +13,19 @@
  * 所以返回 [0, 1]
  */
 #include <stdio.h>
+#include <stdlib.h>
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
+    *returnSize=0;
+    int *num=(int *)malloc(sizeof(int)*2);
     int i=0,j=0;
-    int a=0,b=0;
-    int *num=nums;
     for(i=0;i<numsSize-1;i++){
-        a = *num;
-        nums=num;
-        nums++;
-        for(j=i+1;j<numsSize;j++) {
-            b = *nums;
-            if (a + b == target) {
-                *returnSize = i;
-                returnSize ++;
-                *returnSize = j;
+        for(j=i+1;j<numsSize;j++){
+            if(nums[i]+nums[j]==target){
+                num[0]=i;
+                num[1]=j;
+                *returnSize=2;
             }
-            nums++;
         }
-        num++;
     }
-    return returnSize;
+    return num;
 }

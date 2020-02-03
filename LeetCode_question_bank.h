@@ -42,6 +42,9 @@ extern int subtractProductAndSum(int n);
 extern int findNumbers(int *nums, int numsSize);
 extern int sumWei(int num);
 
+//LeetCode_1304
+extern int *  sumZero(int n, int* returnSize);
+
 //LeetCode_1323
 int maximum69Number (int num);
 
