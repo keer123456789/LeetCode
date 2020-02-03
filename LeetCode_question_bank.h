@@ -13,6 +13,9 @@ struct ListNode {
 //LeetCode_1
 extern int *twoSum(int *nums, int numsSize, int target, int *returnSize);
 
+//LeetCode_2
+extern struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
+
 //LeetCode_3
 extern int lengthOfLongestSubstring(char *s);
 

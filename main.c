@@ -2,6 +2,7 @@
 // Created by keer on 2019/12/26.
 //
 #include <stdio.h>
+#include <stdlib.h>
 #include "LeetCode_question_bank.h"
 
 
@@ -33,9 +34,44 @@ void main() {
             line_end();
         }
             break;
-            /**
-             * 调用LeetCode_3中的函数
-             */
+        case 2: {
+            line_start(2);
+            struct ListNode *l1, *l2;
+            struct ListNode *node;
+            struct ListNode *node1, *cp;
+            struct ListNode *node2, *lp;
+            l1 = malloc(sizeof(struct ListNode));
+            l1->val = NULL;
+            l1->next = NULL;
+            cp = l1;
+            l2 = malloc(sizeof(struct ListNode));
+            l2->val = NULL;
+            l2->next = NULL;
+            lp = l2;
+            for (int i = 0; i < 3; i++) {
+                node1 = malloc(sizeof(struct ListNode));
+                node1->val = i;
+                node1->next = NULL;
+                cp->next = node1;
+                cp = cp->next;
+
+                node2 = malloc(sizeof(struct ListNode));
+                node2->val = i + 1;
+                node2->next = NULL;
+                lp->next = node2;
+                lp = lp->next;
+            }
+            node = addTwoNumbers(l1->next, l2->next);
+            printf("结果：");
+            while (node != NULL) {
+                printf("%d", node->val);
+                node = node->next;
+            }
+            printf("\n");
+            line_end();
+
+        }
+            break;
         case 3: {
             line_start(3);
             char *s = "abcbefg";
@@ -61,10 +97,10 @@ void main() {
 
         }
             break;
-        case 709:{
+        case 709: {
             line_start(709);
-            char *str="HelloWorld";
-            printf("结果：%s\n",toLowerCase(str));
+            char *str = "HelloWorld";
+            printf("结果：%s\n", toLowerCase(str));
 //            char *str="HelloWorld";
 //            int i=0;
 //            printf("开始\n");
@@ -88,11 +124,11 @@ void main() {
             line_end();
         }
             break;
-        case 1021:{
+        case 1021: {
             line_start(1021);
-            char *s="(()())(())";
-            printf("结果：%s\n",s);
-            printf("结果：%s\n",removeOuterParentheses(s));
+            char *s = "(()())(())";
+            printf("结果：%s\n", s);
+            printf("结果：%s\n", removeOuterParentheses(s));
             line_end();
         }
             break;
@@ -126,13 +162,13 @@ void main() {
             line_end();
         }
             break;
-        case 1304:{
+        case 1304: {
             line_start(1304);
             int *a;
-            a=sumZero(5,a);
-            int i=0;
-            for(;i<5;i++){
-                printf("%d ",*a);
+            a = sumZero(5, a);
+            int i = 0;
+            for (; i < 5; i++) {
+                printf("%d ", *a);
                 a++;
             }
             printf("\n");
