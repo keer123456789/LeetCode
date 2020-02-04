@@ -74,8 +74,18 @@ void main() {
             break;
         case 3: {
             line_start(3);
-            char *s = "abcbefg";
+            char *s = "dvdf";
             printf("结果=%d\n", lengthOfLongestSubstring(s));
+            line_end();
+        }
+            break;
+        case 4:{
+            line_start(4);
+            int a[2]={1,3};
+            int b[1]={2};
+
+
+            printf("结果：=%lf\n",findMedianSortedArrays(a,2,b,1));
             line_end();
         }
             break;

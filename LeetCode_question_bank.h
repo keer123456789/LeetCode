@@ -19,6 +19,9 @@ extern struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
 //LeetCode_3
 extern int lengthOfLongestSubstring(char *s);
 
+//LeetCode_4
+extern double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size);
+
 //LeetCode_237
 extern void deleteNode(struct ListNode *node);
 extern void InitNodeList(struct sNode **HL);

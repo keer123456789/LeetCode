@@ -16,6 +16,7 @@ struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
     struct ListNode *cp;
     int flag = 0, x = 0, y = 0;
 
+    lp=malloc(sizeof(struct ListNode));
     res = lp;
     for (; l1 != NULL || l2 != NULL;) {
         cp = malloc(sizeof(struct ListNode));
