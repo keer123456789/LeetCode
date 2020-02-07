@@ -89,6 +89,13 @@ void main() {
             line_end();
         }
             break;
+
+        case 5:{
+            line_start(5);
+            char *s="babad";
+            printf("½á¹û£º%s\n",longestPalindrome(s));
+        }
+            break;
         case 237: {
             line_start(237);
             struct ListNode *p;

@@ -2,6 +2,7 @@
 // Created by keer on 2020/2/4.
 //
 #include <stdlib.h>
+
 double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2, int nums2Size) {
     int sum = nums1Size + nums2Size;
     int *a = (int *) malloc(sizeof(int) * sum);
@@ -17,10 +18,10 @@ double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2, int nums2Si
             j++;
             continue;
         }
-        if (nums1[j] < nums2[k] || k >= nums2Size) {
+        if (nums1[j] < nums2[k]) {
             a[i] = nums1[j];
             j++;
-        } else if (nums1[j] >= nums2[k] || j >= nums1Size) {
+        } else if (nums1[j] >= nums2[k]) {
             a[i] = nums2[k];
             k++;
         }
