@@ -24,6 +24,8 @@ extern double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int 
 
 //LeetCode_5
 extern char * longestPalindrome(char * s);
+//LeetCode_6
+extern char * convert(char * s, int numRows);
 //LeetCode_237
 extern void deleteNode(struct ListNode *node);
 extern void InitNodeList(struct sNode **HL);

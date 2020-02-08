@@ -96,6 +96,16 @@ void main() {
             printf("结果：%s\n",longestPalindrome(s));
         }
             break;
+        case 6:{
+            line_start(6);
+            char *s="LEETCODEISHIRING";
+            printf("输入：%s,3\n",s);
+            printf("结果：%s\n",convert(s,3));
+            printf("输入：%s,4\n",s);
+            printf("结果：%s\n",convert(s,4));
+            line_end();
+        }
+            break;
         case 237: {
             line_start(237);
             struct ListNode *p;

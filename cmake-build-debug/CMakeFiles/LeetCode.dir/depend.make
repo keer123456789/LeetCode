@@ -27,6 +27,8 @@ CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_4.c.obj: ../LeetCode_que
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_5.c.obj: ../LeetCode_question_bank/LeetCode_5.c
 
+CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_6.c.obj: ../LeetCode_question_bank/LeetCode_6.c
+
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_709.c.obj: ../LeetCode_question_bank/LeetCode_709.c
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/Leetcode_771.c.obj: ../LeetCode_question_bank/Leetcode_771.c
