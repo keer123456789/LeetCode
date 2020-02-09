@@ -92,7 +92,7 @@ void main() {
 
         case 5:{
             line_start(5);
-            char *s="babad";
+            char *s="abcd";
             printf("结果：%s\n",longestPalindrome(s));
         }
             break;
@@ -103,6 +103,14 @@ void main() {
             printf("结果：%s\n",convert(s,3));
             printf("输入：%s,4\n",s);
             printf("结果：%s\n",convert(s,4));
+            line_end();
+        }
+            break;
+        case 7:{
+            line_start(7);
+            int a=1534236469;
+            printf("输入：%d\n",a);
+            printf("结果：%d\n",reverse(a));
             line_end();
         }
             break;
