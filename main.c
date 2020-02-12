@@ -92,8 +92,13 @@ void main() {
 
         case 5:{
             line_start(5);
-            char *s="abcd";
+            char *s="babad";
+            printf("输入：%s\n",s);
             printf("结果：%s\n",longestPalindrome(s));
+            char *a="ccc";
+            printf("输入：%s\n",a);
+            printf("结果：%s\n",longestPalindrome(a));
+
         }
             break;
         case 6:{

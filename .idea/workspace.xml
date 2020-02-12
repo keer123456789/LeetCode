@@ -13,24 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="44f71f00-f1ec-4f99-ad56-5614b4413d14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode_question_bank.h" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_question_bank.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeetCode_question_bank/LeetCode_5.c" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_question_bank/LeetCode_5.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode_question_bank/LeetCode_7.c" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode_question_bank/LeetCode_7.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_5.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_5.c.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_7.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_7.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LeetCode.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/LeetCode.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LeetCode.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +95,14 @@
       <workItem from="1581124523720" duration="4000" />
       <workItem from="1581158770417" duration="3218000" />
       <workItem from="1581164108542" duration="2948000" />
-      <workItem from="1581209183766" duration="2831000" />
+      <workItem from="1581209183766" duration="4557000" />
+      <workItem from="1581234418780" duration="21000" />
+      <workItem from="1581241142730" duration="10000" />
+      <workItem from="1581255791153" duration="2572000" />
+      <workItem from="1581298355467" duration="4479000" />
+      <workItem from="1581385188298" duration="4359000" />
+      <workItem from="1581467369815" duration="5875000" />
+      <workItem from="1581496570875" duration="2360000" />
     </task>
     <servers />
   </component>
@@ -130,46 +127,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580740421646" />
-    <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1581211610767">
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom" timestamp="1581406693490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581211610767" />
-    <state width="1493" height="262" key="GridCell.Tab.0.center" timestamp="1581211610767">
+    <state width="1493" height="262" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581406693490" />
+    <state width="1493" height="262" key="GridCell.Tab.0.center" timestamp="1581406693490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581211610767" />
-    <state width="1493" height="262" key="GridCell.Tab.0.left" timestamp="1581211610767">
+    <state width="1493" height="262" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581406693490" />
+    <state width="1493" height="262" key="GridCell.Tab.0.left" timestamp="1581406693490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581211610767" />
-    <state width="1493" height="262" key="GridCell.Tab.0.right" timestamp="1581211610767">
+    <state width="1493" height="262" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581406693490" />
+    <state width="1493" height="262" key="GridCell.Tab.0.right" timestamp="1581406693490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581211610767" />
-    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1581211613355">
+    <state width="1493" height="262" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581406693490" />
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom" timestamp="1581406693491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581211613355" />
-    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1581211613355">
+    <state width="1493" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581406693491" />
+    <state width="1493" height="262" key="GridCell.Tab.1.center" timestamp="1581406693491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581211613355" />
-    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1581211613355">
+    <state width="1493" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581406693491" />
+    <state width="1493" height="262" key="GridCell.Tab.1.left" timestamp="1581406693491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581211613355" />
-    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1581211613355">
+    <state width="1493" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581406693491" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right" timestamp="1581406693491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581211613355" />
+    <state width="1493" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581406693491" />
     <state x="272" y="57" key="SettingsEditor" timestamp="1580785045445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580785045445" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1581209183229">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1581496570971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581209183229" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581496570971" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580747731269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -190,22 +187,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>187</line>
+          <line>192</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>188</line>
+          <line>193</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>173</line>
+          <line>178</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>172</line>
+          <line>177</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -225,12 +222,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>117</line>
+          <line>122</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>162</line>
+          <line>167</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -240,17 +237,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>143</line>
+          <line>148</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>199</line>
+          <line>204</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>200</line>
+          <line>205</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -289,24 +286,29 @@
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/LeetCode_question_bank/LeetCode_5.c</url>
-          <line>25</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/LeetCode_question_bank/LeetCode_5.c</url>
-          <line>7</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>95</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.c</url>
-          <line>112</line>
+          <line>117</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>94</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LeetCode_question_bank/LeetCode_5.c</url>
+          <line>63</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.c</url>
+          <line>96</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/LeetCode_question_bank/LeetCode_5.c</url>
+          <line>146</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

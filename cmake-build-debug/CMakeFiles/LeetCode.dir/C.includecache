@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/code/c/LeetCode/LeetCode_question_bank.h
-
-E:/code/c/LeetCode/main.c
-stdio.h
--
+E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_5.c
 stdlib.h
 -
-LeetCode_question_bank.h
-E:/code/c/LeetCode/LeetCode_question_bank.h
+string.h
+-
 
