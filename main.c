@@ -127,6 +127,15 @@ void main() {
             line_end();
         }
             break;
+        case 9:{
+            line_start(9);
+            int c=121;
+            printf("输入：%d\n",c);
+            if(isPalindrome(c)==0)
+                printf("结果：不是回文数\n");
+            else
+                printf("结果：是回文数\n");
+        }
         case 237: {
             line_start(237);
             struct ListNode *p;

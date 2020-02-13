@@ -31,6 +31,9 @@ extern int reverse(int x);
 //LeetCode_8
 int myAtoi(char *str);
 
+//LeetCode9
+ int isPalindrome(int x);
+
 //LeetCode_237
 extern void deleteNode(struct ListNode *node);
 extern void InitNodeList(struct sNode **HL);
