@@ -113,9 +113,17 @@ void main() {
             break;
         case 7:{
             line_start(7);
-            int a=1534236469;
-            printf("输入：%d\n",a);
-            printf("结果：%d\n",reverse(a));
+            int b=1534236469;
+            printf("输入：%d\n",b);
+            printf("结果：%d\n",reverse(b));
+            line_end();
+        }
+            break;
+        case 8:{
+            line_start(8);
+            char *s="   -42";
+            printf("输入：%s\n",s);
+            printf("结果：%d\n",myAtoi(s));
             line_end();
         }
             break;

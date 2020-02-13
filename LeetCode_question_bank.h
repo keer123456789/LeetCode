@@ -28,6 +28,9 @@ extern char * longestPalindrome(char * s);
 extern char * convert(char * s, int numRows);
 //LeetCode_7
 extern int reverse(int x);
+//LeetCode_8
+int myAtoi(char *str);
+
 //LeetCode_237
 extern void deleteNode(struct ListNode *node);
 extern void InitNodeList(struct sNode **HL);

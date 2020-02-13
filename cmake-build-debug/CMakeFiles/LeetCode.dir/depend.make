@@ -33,6 +33,8 @@ CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_7.c.obj: ../LeetCode_que
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_709.c.obj: ../LeetCode_question_bank/LeetCode_709.c
 
+CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_8.c.obj: ../LeetCode_question_bank/LeetCode_8.c
+
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/Leetcode_771.c.obj: ../LeetCode_question_bank/Leetcode_771.c
 
 CMakeFiles/LeetCode.dir/main.c.obj: ../LeetCode_question_bank.h

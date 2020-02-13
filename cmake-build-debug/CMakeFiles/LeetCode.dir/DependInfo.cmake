@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_6.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_6.c.obj"
   "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_7.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_7.c.obj"
   "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_709.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_709.c.obj"
+  "E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_8.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_8.c.obj"
   "E:/code/c/LeetCode/LeetCode_question_bank/Leetcode_771.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/LeetCode_question_bank/Leetcode_771.c.obj"
   "E:/code/c/LeetCode/main.c" "E:/code/c/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/main.c.obj"
   )
