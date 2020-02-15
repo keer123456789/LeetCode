@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1.c.obj"
+  "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_10.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1021.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1108.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1221.c.obj"

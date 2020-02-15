@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define FLAG 3
+#define FLAG 2
 
 /**
  * 暴力检索

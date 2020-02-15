@@ -79,63 +79,74 @@ void main() {
             line_end();
         }
             break;
-        case 4:{
+        case 4: {
             line_start(4);
-            int a[2]={1,3};
-            int b[1]={2};
+            int a[2] = {1, 3};
+            int b[1] = {2};
 
 
-            printf("结果：=%lf\n",findMedianSortedArrays(a,2,b,1));
+            printf("结果：=%lf\n", findMedianSortedArrays(a, 2, b, 1));
             line_end();
         }
             break;
 
-        case 5:{
+        case 5: {
             line_start(5);
-            char *s="babad";
-            printf("输入：%s\n",s);
-            printf("结果：%s\n",longestPalindrome(s));
-            char *a="ccc";
-            printf("输入：%s\n",a);
-            printf("结果：%s\n",longestPalindrome(a));
+            char *s = "babad";
+            printf("输入：%s\n", s);
+            printf("结果：%s\n", longestPalindrome(s));
+            char *a = "ccc";
+            printf("输入：%s\n", a);
+            printf("结果：%s\n", longestPalindrome(a));
 
         }
             break;
-        case 6:{
+        case 6: {
             line_start(6);
-            char *s="LEETCODEISHIRING";
-            printf("输入：%s,3\n",s);
-            printf("结果：%s\n",convert(s,3));
-            printf("输入：%s,4\n",s);
-            printf("结果：%s\n",convert(s,4));
+            char *s = "LEETCODEISHIRING";
+            printf("输入：%s,3\n", s);
+            printf("结果：%s\n", convert(s, 3));
+            printf("输入：%s,4\n", s);
+            printf("结果：%s\n", convert(s, 4));
             line_end();
         }
             break;
-        case 7:{
+        case 7: {
             line_start(7);
-            int b=1534236469;
-            printf("输入：%d\n",b);
-            printf("结果：%d\n",reverse(b));
+            int b = 1534236469;
+            printf("输入：%d\n", b);
+            printf("结果：%d\n", reverse(b));
             line_end();
         }
             break;
-        case 8:{
+        case 8: {
             line_start(8);
-            char *s="   -42";
-            printf("输入：%s\n",s);
-            printf("结果：%d\n",myAtoi(s));
+            char *s = "   -42";
+            printf("输入：%s\n", s);
+            printf("结果：%d\n", myAtoi(s));
             line_end();
         }
             break;
-        case 9:{
+        case 9: {
             line_start(9);
-            int c=121;
-            printf("输入：%d\n",c);
-            if(isPalindrome(c)==0)
+            int c = 121;
+            printf("输入：%d\n", c);
+            if (isPalindrome(c) == 0)
                 printf("结果：不是回文数\n");
             else
                 printf("结果：是回文数\n");
         }
+            break;
+        case 10: {
+            line_start(10);
+            char *c = "aabc";
+            char *d="a*.c";
+            printf("输入：%s, %s\n", c,d);
+
+            printf("结果：%d\n",isMatch(c,d));
+            line_end();
+        }
+            break;
         case 237: {
             line_start(237);
             struct ListNode *p;

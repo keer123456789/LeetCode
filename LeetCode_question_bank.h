@@ -1,7 +1,7 @@
 //
 // Created by keer on 2019/12/27.
 //
-
+#include <stdbool.h>
 #ifndef LEETCODE_LEETCODE_QUESTION_BANK_H
 #define LEETCODE_LEETCODE_QUESTION_BANK_H
 struct ListNode {
@@ -33,6 +33,8 @@ int myAtoi(char *str);
 
 //LeetCode9
  int isPalindrome(int x);
+//LeetCode10
+bool isMatch(char * s, char * p);
 
 //LeetCode_237
 extern void deleteNode(struct ListNode *node);
