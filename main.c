@@ -147,6 +147,16 @@ void main() {
             line_end();
         }
             break;
+        case 11:{
+            line_start(11);
+            int a[]={1,8,6,2,5,4,8,3,7};
+            printf(" ‰»Î£∫");
+            for(int i=0;i<9;i++){
+                printf("%d ",a[i]);
+            }
+            printf("\n");
+            printf("Ω·π˚£∫%d\n",maxArea(a,9));
+        }
         case 237: {
             line_start(237);
             struct ListNode *p;

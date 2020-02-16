@@ -33,8 +33,12 @@ int myAtoi(char *str);
 
 //LeetCode9
  int isPalindrome(int x);
+
 //LeetCode10
 bool isMatch(char * s, char * p);
+
+//LeetCode11
+int maxArea(int* height, int heightSize);
 
 //LeetCode_237
 extern void deleteNode(struct ListNode *node);
