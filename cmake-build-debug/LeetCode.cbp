@@ -92,6 +92,9 @@
 		<Unit filename="E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1108.c">
 			<Option target="LeetCode"/>
 		</Unit>
+		<Unit filename="E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_12.c">
+			<Option target="LeetCode"/>
+		</Unit>
 		<Unit filename="E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1221.c">
 			<Option target="LeetCode"/>
 		</Unit>
@@ -99,6 +102,9 @@
 			<Option target="LeetCode"/>
 		</Unit>
 		<Unit filename="E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1295.c">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_13.c">
 			<Option target="LeetCode"/>
 		</Unit>
 		<Unit filename="E:/code/c/LeetCode/LeetCode_question_bank/LeetCode_1304.c">

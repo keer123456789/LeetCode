@@ -24,21 +24,30 @@ extern double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int 
 
 //LeetCode_5
 extern char * longestPalindrome(char * s);
+
 //LeetCode_6
 extern char * convert(char * s, int numRows);
+
 //LeetCode_7
 extern int reverse(int x);
+
 //LeetCode_8
-int myAtoi(char *str);
+extern int myAtoi(char *str);
 
 //LeetCode9
- int isPalindrome(int x);
+extern int isPalindrome(int x);
 
 //LeetCode10
-bool isMatch(char * s, char * p);
+extern bool isMatch(char * s, char * p);
 
 //LeetCode11
-int maxArea(int* height, int heightSize);
+extern int maxArea(int* height, int heightSize);
+
+//LeetCode_12
+extern char * intToRoman(int num);
+
+//LeetCode_13
+extern int romanToInt(char * s);
 
 //LeetCode_237
 extern void deleteNode(struct ListNode *node);
@@ -47,6 +56,7 @@ extern void TraverseNodeList(struct ListNode *L);
 
 //LeetCode_709
 extern char * toLowerCase(char * str);
+
 //LeetCode_771
 extern int numJewelsInStones(char *J, char *S);
 

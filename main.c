@@ -140,22 +140,40 @@ void main() {
         case 10: {
             line_start(10);
             char *c = "aabc";
-            char *d="a*.c";
-            printf("输入：%s, %s\n", c,d);
+            char *d = "a*.c";
+            printf("输入：%s, %s\n", c, d);
 
-            printf("结果：%d\n",isMatch(c,d));
+            printf("结果：%d\n", isMatch(c, d));
             line_end();
         }
             break;
-        case 11:{
+        case 11: {
             line_start(11);
-            int a[]={1,8,6,2,5,4,8,3,7};
+            int a[] = {1, 8, 6, 2, 5, 4, 8, 3, 7};
             printf("输入：");
-            for(int i=0;i<9;i++){
-                printf("%d ",a[i]);
+            for (int i = 0; i < 9; i++) {
+                printf("%d ", a[i]);
             }
             printf("\n");
-            printf("结果：%d\n",maxArea(a,9));
+            printf("结果：%d\n", maxArea(a, 9));
+        }
+            break;
+        case 12: {
+            line_start(12);
+            int c = 3;
+            printf("输入：%d\n", c);
+
+            printf("结果：%s\n", intToRoman(c));
+            line_end();
+        }
+            break;
+        case 13:{
+            line_start(12);
+            char *s="IV";
+            printf("输入：%s\n", s);
+
+            printf("结果：%d\n", romanToInt(s));
+            line_end();
         }
         case 237: {
             line_start(237);

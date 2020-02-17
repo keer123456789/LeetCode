@@ -11,11 +11,15 @@ CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_11.c.obj: ../LeetCode_qu
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1108.c.obj: ../LeetCode_question_bank/LeetCode_1108.c
 
+CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_12.c.obj: ../LeetCode_question_bank/LeetCode_12.c
+
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1221.c.obj: ../LeetCode_question_bank/LeetCode_1221.c
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1281.c.obj: ../LeetCode_question_bank/LeetCode_1281.c
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1295.c.obj: ../LeetCode_question_bank/LeetCode_1295.c
+
+CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_13.c.obj: ../LeetCode_question_bank/LeetCode_13.c
 
 CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1304.c.obj: ../LeetCode_question_bank/LeetCode_1304.c
 
