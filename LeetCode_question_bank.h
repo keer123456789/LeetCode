@@ -49,6 +49,9 @@ extern char * intToRoman(int num);
 //LeetCode_13
 extern int romanToInt(char * s);
 
+//LeetCode_14
+extern char *longestCommonPrefix(char **strs, int strsSize);
+
 //LeetCode_237
 extern void deleteNode(struct ListNode *node);
 extern void InitNodeList(struct sNode **HL);

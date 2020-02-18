@@ -168,13 +168,24 @@ void main() {
         }
             break;
         case 13: {
-            line_start(12);
+            line_start(13);
             char *s = "IV";
             printf("输入：%s\n", s);
 
             printf("结果：%d\n", romanToInt(s));
             line_end();
         }
+            break;
+        case 14: {
+            line_start(14);
+            char *s[3] = {0};
+            s[0] = "flower";
+            s[1] = "flew";
+            s[2] = "flur";
+            printf("结果：%s\n", longestCommonPrefix(s, 3));
+            line_end();
+        }
+            break;
         case 237: {
             line_start(237);
             struct ListNode *p;

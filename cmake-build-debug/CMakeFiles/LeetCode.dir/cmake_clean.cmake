@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_13.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1304.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_1323.c.obj"
+  "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_14.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_2.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_237.c.obj"
   "CMakeFiles/LeetCode.dir/LeetCode_question_bank/LeetCode_3.c.obj"
