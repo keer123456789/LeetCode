@@ -167,9 +167,9 @@ void main() {
             line_end();
         }
             break;
-        case 13:{
+        case 13: {
             line_start(12);
-            char *s="IV";
+            char *s = "IV";
             printf(" ‰»Î£∫%s\n", s);
 
             printf("Ω·π˚£∫%d\n", romanToInt(s));
